@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B223FC12B7E0023002B73DB /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B223FC02B7E0023002B73DB /* MedianOfTwoSortedArrays.swift */; };
+		3B223FC32B7E0802002B73DB /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B223FC22B7E0802002B73DB /* LongestPalindromicSubstring.swift */; };
+		3B223FC52B8459EE002B73DB /* ZigzagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B223FC42B8459EE002B73DB /* ZigzagConversion.swift */; };
+		3BC936CC2B8723400091C36E /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC936CB2B8723400091C36E /* ContainerWithMostWater.swift */; };
+		3BC936CE2B87430D0091C36E /* IntegerToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC936CD2B87430D0091C36E /* IntegerToRoman.swift */; };
+		3BC936D02B882EBF0091C36E /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC936CF2B882EBF0091C36E /* RomanToInteger.swift */; };
 		3BCA44C82B7C8778000E102D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44C72B7C8778000E102D /* AppDelegate.swift */; };
 		3BCA44CA2B7C8778000E102D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44C92B7C8778000E102D /* SceneDelegate.swift */; };
 		3BCA44CC2B7C8778000E102D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44CB2B7C8778000E102D /* ViewController.swift */; };
@@ -15,6 +21,11 @@
 		3BCA44D42B7C877A000E102D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA44D22B7C877A000E102D /* LaunchScreen.storyboard */; };
 		3BCA44F82B7C8A35000E102D /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44F72B7C8A35000E102D /* TwoSum.swift */; };
 		3BCA44FA2B7C9803000E102D /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44F92B7C9803000E102D /* AddTwoNumbers.swift */; };
+		3BCA44FC2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44FB2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		3BF3DD202B86EF14008F6699 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3DD1F2B86EF14008F6699 /* PalindromeNumber.swift */; };
+		3BF3DD222B86F51F008F6699 /* RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3DD212B86F51F008F6699 /* RegularExpressionMatching.swift */; };
+		3BF90FDA2B84A821003C320E /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF90FD92B84A821003C320E /* ReverseInteger.swift */; };
+		3BF90FDC2B85A3ED003C320E /* StringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF90FDB2B85A3ED003C320E /* StringToInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B223FC02B7E0023002B73DB /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
+		3B223FC22B7E0802002B73DB /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
+		3B223FC42B8459EE002B73DB /* ZigzagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversion.swift; sourceTree = "<group>"; };
+		3BC936CB2B8723400091C36E /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		3BC936CD2B87430D0091C36E /* IntegerToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRoman.swift; sourceTree = "<group>"; };
+		3BC936CF2B882EBF0091C36E /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		3BCA44C42B7C8778000E102D /* CodingTestStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingTestStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCA44C72B7C8778000E102D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BCA44C92B7C8778000E102D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +56,11 @@
 		3BCA44DA2B7C877A000E102D /* CodingTestStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingTestStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCA44F72B7C8A35000E102D /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		3BCA44F92B7C9803000E102D /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		3BCA44FB2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		3BF3DD1F2B86EF14008F6699 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
+		3BF3DD212B86F51F008F6699 /* RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatching.swift; sourceTree = "<group>"; };
+		3BF90FD92B84A821003C320E /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		3BF90FDB2B85A3ED003C320E /* StringToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,17 @@
 			children = (
 				3BCA44F72B7C8A35000E102D /* TwoSum.swift */,
 				3BCA44F92B7C9803000E102D /* AddTwoNumbers.swift */,
+				3BCA44FB2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift */,
+				3B223FC02B7E0023002B73DB /* MedianOfTwoSortedArrays.swift */,
+				3B223FC22B7E0802002B73DB /* LongestPalindromicSubstring.swift */,
+				3B223FC42B8459EE002B73DB /* ZigzagConversion.swift */,
+				3BF90FD92B84A821003C320E /* ReverseInteger.swift */,
+				3BF90FDB2B85A3ED003C320E /* StringToInteger.swift */,
+				3BF3DD1F2B86EF14008F6699 /* PalindromeNumber.swift */,
+				3BF3DD212B86F51F008F6699 /* RegularExpressionMatching.swift */,
+				3BC936CB2B8723400091C36E /* ContainerWithMostWater.swift */,
+				3BC936CD2B87430D0091C36E /* IntegerToRoman.swift */,
+				3BC936CF2B882EBF0091C36E /* RomanToInteger.swift */,
 			);
 			path = CodingTestStudyTests;
 			sourceTree = "<group>";
@@ -211,8 +244,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF90FDC2B85A3ED003C320E /* StringToInteger.swift in Sources */,
+				3BF90FDA2B84A821003C320E /* ReverseInteger.swift in Sources */,
+				3B223FC12B7E0023002B73DB /* MedianOfTwoSortedArrays.swift in Sources */,
+				3BF3DD222B86F51F008F6699 /* RegularExpressionMatching.swift in Sources */,
+				3BF3DD202B86EF14008F6699 /* PalindromeNumber.swift in Sources */,
+				3BC936CC2B8723400091C36E /* ContainerWithMostWater.swift in Sources */,
 				3BCA44FA2B7C9803000E102D /* AddTwoNumbers.swift in Sources */,
+				3BCA44FC2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
+				3BC936D02B882EBF0091C36E /* RomanToInteger.swift in Sources */,
+				3B223FC32B7E0802002B73DB /* LongestPalindromicSubstring.swift in Sources */,
+				3BC936CE2B87430D0091C36E /* IntegerToRoman.swift in Sources */,
 				3BCA44F82B7C8A35000E102D /* TwoSum.swift in Sources */,
+				3B223FC52B8459EE002B73DB /* ZigzagConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
