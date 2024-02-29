@@ -56,6 +56,7 @@ final class IntegerToRoman: XCTestCase {
         XCTAssertEqual(answer , solution)
     }
     
+    /// 더 나은 결과
     func intToRoman(_ num: Int) -> String {
         var num = num
         let symbol =  ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]

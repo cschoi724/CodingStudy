@@ -5,7 +5,7 @@
 //  Created by cschoi on 2/23/24.
 //
 /// https://leetcode.com/problems/roman-to-integer/
-/// 난이도: Medium
+/// 난이도: Easy
 /// 로마 숫자는 I, V, X, L, C, D, M의 7가지 기호로 표현된다.
 /// Symbol       Value
 /// I                  1
@@ -59,15 +59,34 @@ final class RomanToInteger: XCTestCase {
         XCTAssertEqual(answer , solution)
     }
     
+    
+    // 초기 답안
     func romanToInt(_ s: String) -> Int {
         var string = s
-        let symbol =  ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
+        let symbol = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
         let value = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
         var result = 0
         
-        for row in symbol.enumerated() {
+        while string.isEmpty == false {
+            let first = String(string.removeFirst())
+            var second = ""
+            if let char = string.first {
+                second = String(char)
+            }
             
-            result += value[row.offset]
+            for row in symbol.enumerated() {
+                if (first + second) == row.element {
+                    result += value[row.offset]
+                    if string.first != nil{
+                        string.removeFirst()
+                    }
+                    
+                    break
+                } else if first == row.element {
+                    result += value[row.offset]
+                    break
+                }
+            }
         }
         
         return result
