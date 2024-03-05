@@ -13,7 +13,7 @@
 /// Constraints:
 /// 3 <= nums.length <= 500
 /// -1000 <= nums[i] <= 1000
-/// -104 <= target <= 104
+/// -10^4 <= target <= 10^4
 ///
 import Foundation
 
@@ -40,20 +40,41 @@ final class ThreeSumClosest: XCTestCase {
         XCTAssertEqual(answer , solution)
     }
     
+    func testCase3() throws {
+        let nums = [-1000,-1000,-1000]
+        let target = 1000
+        let answer = -3000
+        let solution = threeSumClosest(nums, target)
+        XCTAssertEqual(answer , solution)
+    }
+
+    /// -4 -1 1 2
+    /// -4 -1 2,  1  >  -3
+    /// -4 1 2 , 1 > -1
+    /// -1 1 2 , 1 < 2
+    ///
     func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
-        var nums = nums.sorted()
+        let nums = nums.sorted()
         var result = 0
         var diff = 0
+        
         for i in 0...(nums.count - 2) {
             var l = i + 1
             var r = nums.count - 1
             
             while l < r {
-                var sum = nums[i] + nums[l] + nums[r]
-                var total = [nums[i], nums[l], nums[r]]
-                if sum > target {
+                let sum = nums[i] + nums[l] + nums[r]
+                if  diff > abs(target - sum) {
+                    diff = abs(target - sum)
+                    result = sum
+                } else if diff == 0{
+                    diff = abs(target - sum)
+                    result = sum
+                }
+                
+                if target < sum {
                     r -= 1
-                } else if sum < target {
+                } else if target > sum{
                     l += 1
                 } else {
                     return sum

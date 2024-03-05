@@ -25,6 +25,7 @@
 		3BCA44FC2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA44FB2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		3BD01A532B8D7C9600F5042C /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD01A522B8D7C9600F5042C /* ThreeSum.swift */; };
 		3BD01A592B9076A500F5042C /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD01A582B9076A500F5042C /* ThreeSumClosest.swift */; };
+		3BD01A5B2B95705B00F5042C /* LetterCombinationsOfAPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD01A5A2B95705B00F5042C /* LetterCombinationsOfAPhoneNumber.swift */; };
 		3BF3DD202B86EF14008F6699 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3DD1F2B86EF14008F6699 /* PalindromeNumber.swift */; };
 		3BF3DD222B86F51F008F6699 /* RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3DD212B86F51F008F6699 /* RegularExpressionMatching.swift */; };
 		3BF90FDA2B84A821003C320E /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF90FD92B84A821003C320E /* ReverseInteger.swift */; };
@@ -63,6 +64,7 @@
 		3BCA44FB2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		3BD01A522B8D7C9600F5042C /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		3BD01A582B9076A500F5042C /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
+		3BD01A5A2B95705B00F5042C /* LetterCombinationsOfAPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfAPhoneNumber.swift; sourceTree = "<group>"; };
 		3BF3DD1F2B86EF14008F6699 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		3BF3DD212B86F51F008F6699 /* RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatching.swift; sourceTree = "<group>"; };
 		3BF90FD92B84A821003C320E /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				3BC9371C2B8C7E420091C36E /* LongestCommonPrefix.swift */,
 				3BD01A522B8D7C9600F5042C /* ThreeSum.swift */,
 				3BD01A582B9076A500F5042C /* ThreeSumClosest.swift */,
+				3BD01A5A2B95705B00F5042C /* LetterCombinationsOfAPhoneNumber.swift */,
 			);
 			path = CodingTestStudyTests;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				3BF3DD202B86EF14008F6699 /* PalindromeNumber.swift in Sources */,
 				3BC936CC2B8723400091C36E /* ContainerWithMostWater.swift in Sources */,
 				3BCA44FA2B7C9803000E102D /* AddTwoNumbers.swift in Sources */,
+				3BD01A5B2B95705B00F5042C /* LetterCombinationsOfAPhoneNumber.swift in Sources */,
 				3BCA44FC2B7DD7C5000E102D /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				3BD01A592B9076A500F5042C /* ThreeSumClosest.swift in Sources */,
 				3BC936D02B882EBF0091C36E /* RomanToInteger.swift in Sources */,
